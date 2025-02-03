@@ -15,10 +15,10 @@ from rulekit import RuleKit
 from rulekit.classification import RuleClassifier
 from rulekit.params import Measures
 
-from converters.cnf_converter import CNFConverter
-from converters.sympy_cnf_converter import SympyCNFConverter
-from converters.nnf_cnf_converter import NnfCNFConverter
-from utils.ruleset_quality_report import create_full_report
+from .converters.cnf_converter import CNFConverter
+from .converters.sympy_cnf_converter import SympyCNFConverter
+from .converters.nnf_cnf_converter import NnfCNFConverter
+from .utils.ruleset_quality_report import create_full_report
 
 
 def prepare_dataset(
