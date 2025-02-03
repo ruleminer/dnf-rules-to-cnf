@@ -5,6 +5,13 @@ __pycache__/
 
 # Datasets and results
 data/
+examples/*.txt
+*.csv
+*.parquet
+
+# Test notebooks
+notebooks/
+_*.ipynb
 
 # Virtual environment
 venv/
